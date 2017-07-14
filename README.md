@@ -1,0 +1,2 @@
+# mirepositorio
+repositorio inicial linux
