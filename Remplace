@@ -1,0 +1,6 @@
+#! /bin/bash
+f=${1##*/} 
+name=${f%.*}
+ext=${f##*.}
+newName=$name'1.'$ext
+sed 's%'$2'%'$3'%g' $1  > $newName
